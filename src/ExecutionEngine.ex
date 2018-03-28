@@ -5,5 +5,5 @@ defmodule ExecutionEngine do
     :fault => 2,
     :break => 4
   }
-  
+
 end
