@@ -16,7 +16,7 @@ defmodule ScriptBuilder do
     end
   end
 
-  def getUInt16(value, endian \\ :little) do
+  def getUInt64(value, endian \\ :little) do
     if endian === :big do
       Base.encode16(<<value::64-big>>)
     else
